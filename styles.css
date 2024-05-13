@@ -201,6 +201,7 @@ footer{
   }
   #contact-section > div{
     flex-direction: column;
+    width: auto;
   }
   #contact-section{
   margin-bottom: 100px;
