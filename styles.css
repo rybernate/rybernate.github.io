@@ -68,18 +68,6 @@ navbar{
   justify-content: center;
 }
 
-@media (max-width: 500px){
-  #navbar{
-    flex-direction: column;
-  }
-  #welcome-section h1{
-    padding-top: 168px;
-  }
-  h1{
-  padding: 118px 20px 20px 20px;
-  }
-}
-
 #nav-item:hover{
   color: #fff;
   text-shadow: 1px 1px #372f4e;
@@ -137,15 +125,6 @@ navbar{
   text-decoration: none;
   line-height: 27px;
 }
-
-@media (max-width: 1212px){
-  .projects-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
-}
-
 
 #contact-section{
   display: flex;
@@ -208,4 +187,30 @@ footer{
   font-weight: 600;
   font-size: 1rem;
   padding-right: 20px;
+}
+
+@media (max-width: 500px){
+  #navbar{
+    flex-direction: column;
+  }
+  #welcome-section h1{
+    padding-top: 168px;
+  }
+  h1{
+    padding: 118px 20px 20px 20px;
+  }
+  #contact-section > div{
+    flex-direction: column;
+  }
+  #contact-section{
+  margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 1212px){
+  .projects-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
 }
