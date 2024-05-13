@@ -9,8 +9,8 @@ body{
 }
 
 .content{
-  margin-left: 20;
-  margin-right: 20;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 h1{
@@ -52,7 +52,7 @@ navbar{
   box-shadow: 2px 2px #000;
 }
 
-#nav-item{
+#nav-item,#nav-item:active,#nav-item:visited{
   display: flex;
   font-family: Trebuchet, sans-serif;
   font-weight: 600;
