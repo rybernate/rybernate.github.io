@@ -4,7 +4,7 @@
 }
 
 body{
-  background: linear-gradient(325deg, #A69BC4 0%, #5a4c80 80%, #5a4c80 100%);
+  background: linear-gradient(90deg, #1e192c 0%, #5a4c80 80%, #5a4c80 100%);
   justify-content: center;
 }
 
@@ -70,7 +70,7 @@ navbar{
 
 @media (max-width: 500px){
   #navbar{
-  flex-direction: column;
+    flex-direction: column;
   }
   #welcome-section h1{
     padding-top: 168px;
@@ -159,10 +159,12 @@ navbar{
 }
 
 #contact-section > div{
+  position: inherit;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  align-content: center;
 }
 
 #contact-section div > a{
@@ -172,15 +174,24 @@ navbar{
   color: #fff;
   text-decoration: none;
   text-shadow: 1px 1px #372f4e;
-  margin: 30px;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-content: center;
 }
 
 #contact-section > div a:first-of-type{
-  margin-left: -30px;
+  display: none;
 }
 
 #contact-section i{
   font-size: 5rem;
+}
+
+#contact-section i:hover{
+  font-size: 6rem;
+  text-shadow: 5px 2px #372f4e;
 }
 
 footer{
